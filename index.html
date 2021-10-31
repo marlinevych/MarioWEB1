@@ -3,8 +3,56 @@
     <head>
         <meta charset="utf-8">
         <title>Mario</title>
+        <link rel="stylesheet" href="./css/style.css"> 
     </head>
     <body>
-        
+        <header class="maim-header">
+            <nav class="main-nav">
+                <a class="main-header-logo" href="#">
+                    <img src="img/logo.png" height="73.3" alt="logo">
+                </a>
+                <ul class="page-nav">
+                    <li><a href="#main">Головна</a></li>
+                    <li><a href="#home">Опис</a></li>
+                    <li><a href="#">Серія ігор</a></li>
+                    <li><a href="#">Sega</a></li>
+                </ul>
+                <ul class="user-nav">
+                    <img src="img/login_logo.png" width="42.38" height="42.38" alt="login">
+                    <li class="login-link"><a href="#home">Вхід</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="conteiner">
+            <section id="main">
+                <h1>Маріо - ікона ігрової індустрії</h1>
+                <p>Хочеш дізнатися більше про самого найвідомішого персонажа комп’ютерних ігор?</p>
+                <button><a href="#">1 player game</a></button>
+            </section>
+
+            <section id="home">
+                <h2>Опис</h2>
+                <script src="./js/home-target"></script>
+                <ul>
+                    <button><a class="source source-1">Концепція</a></button>
+                    <button><a class="source source-2">Вигляд</a></button>
+                    <button><a class="source source-3">Здібності</a></button>
+                    <button><a class="source source-3">Біографія</a></button>
+                </ul>
+
+                <div class=target target-1>
+                    <p>Концепція</p>
+                </div>
+                <div class=target target-2>
+                    <p>Вигляд</p>
+                </div>
+                <div class=target target-3>
+                    <p>Здібності</p>
+                </div>
+                <div class=target target-4>
+                    <p>Біографія</p>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
